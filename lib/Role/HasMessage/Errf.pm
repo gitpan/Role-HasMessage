@@ -1,6 +1,6 @@
 package Role::HasMessage::Errf;
-BEGIN {
-  $Role::HasMessage::Errf::VERSION = '0.005';
+{
+  $Role::HasMessage::Errf::VERSION = '0.006';
 }
 use MooseX::Role::Parameterized;
 # ABSTRACT: a thing with a String::Errf-powered message
@@ -61,6 +61,7 @@ role {
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -69,7 +70,7 @@ Role::HasMessage::Errf - a thing with a String::Errf-powered message
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 SYNOPSIS
 
@@ -121,10 +122,9 @@ Ricardo Signes <rjbs@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Ricardo Signes.
+This software is copyright (c) 2013 by Ricardo Signes.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
